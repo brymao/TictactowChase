@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-semistandard": "^17.0.0",
+    "http-server": "^14.1.1"
+  },
+  "eslintConfig": {
+    "extends": "semistandard",
+    "rules": {
+      "arrow-parens": "error",
+      "space-before-function-paren": "off"
+    }
+  },
+  "scripts": {
+    "start": "http-server"
+  }
+}
